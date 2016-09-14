@@ -52,8 +52,8 @@ Whenever you run a function or method with this decorator, it will automatically
 
 ## Inspection
 
-* _Memory view_: Shows a graph with current memory usage of your programm. Each point in the graph is associated with the Python stack trace active at that point in time. By zooming into the interesting regions of the program execution, you can find out when and why memory was allocated.
-* _CPU view_: Shows a heatmap over the all collected stack traces. This allows you to find and inspect the functions and methods where your program is spending most of its time.
+* [_Memory view_](https://cloud.githubusercontent.com/assets/175722/18513125/5f80dd08-7a8c-11e6-8ea8-de80b57f4e7f.png): Shows a graph with current memory usage of your programm. Each point in the graph is associated with the Python stack trace active at that point in time. By zooming into the interesting regions of the program execution, you can find out when and why memory was allocated.
+* [_CPU view_](https://cloud.githubusercontent.com/assets/175722/18513127/6186894a-7a8c-11e6-8159-f4517c2ac749.png): Shows a heatmap over the all collected stack traces. This allows you to find and inspect the functions and methods where your program is spending most of its time.
 
 If you also have traces that have been recorded with plain [vmprof](https://vmprof.readthedocs.io/en/latest/) (without using vmprof-viewer as a convenience wrapper), you can upload them to the vmprof-viewer server using a command-line tool provided by vmprof-viewer:
 
