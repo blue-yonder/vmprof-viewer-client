@@ -15,7 +15,7 @@ For the client:
 pip install git+https://github.com/jonashaag/vmprof-viewer-client
 ```
 
-You'll need to have a vmprof-viewer server running, see https://github.com/jonashaag/vmprof-viewer for details.
+You'll need to have a vmprof-viewer server running, see https://github.com/blue-yonder/vmprof-viewer-server for details.
 
 ## Instrumentation
 You have to add some sprinkles of vmprof-viewer to your own code, in order to enable profiling:
