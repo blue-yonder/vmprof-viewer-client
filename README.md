@@ -1,7 +1,7 @@
 # vmprof-viewer: a frontend to vmprof
 
 ## What is vmprof-viewer?
-vmprof-viewer is a tool for profiling Python applications (RAM and CPU). It is based on [vmprof](https://vmprof.readthedocs.io/en/latest/) and has very low overhead. vmprof-viewer also provides a nice [interactive web viewer](https://github.com/jonashaag/vmprof-viewer) for the generated profiles, so you can get started with profiling quickly.
+vmprof-viewer is a tool for profiling Python applications (RAM and CPU). It is based on [vmprof](https://vmprof.readthedocs.io/en/latest/) and has very low overhead. vmprof-viewer also provides a nice interactive web viewer for the generated profiles, so you can get started with profiling quickly.
 
 vmprof-viewer is a statistical profiler. In a nutshell, it interrupts your Python application every X milliseconds and records its current stack trace and memory consumption (RSS). From these traces, the relative amount of time spent in each part of the application code can be approximated.
 
