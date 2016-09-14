@@ -4,6 +4,9 @@ import random
 import vmprof_viewer_client
 
 
+vmprof_viewer_client.configure("Demo project")
+
+
 class Node(object):
     def __init__(self, right, left):
         self.left = left
@@ -93,8 +96,6 @@ def fuzzer(count):
 
 
 if __name__ == '__main__':
-    vmprof_viewer_client.configure("Demo project")
-
     if len(sys.argv) == 2 and sys.argv[1] == 'demo':
         import time
         random.seed(42)
