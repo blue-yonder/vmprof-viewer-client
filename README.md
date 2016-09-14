@@ -17,6 +17,13 @@ pip install git+https://github.com/blue-yonder/vmprof-viewer-client
 
 You'll need to have a vmprof-viewer server running, see https://github.com/blue-yonder/vmprof-viewer-server for details.
 
+## Demo
+You may use the provided profiling example to test your setup works correctly. The vmprof-viewer-server is expected to be hosted at `localhost:8000`.
+
+```
+python vmprofdemo.py demo
+```
+
 ## Instrumentation
 You have to add some sprinkles of vmprof-viewer to your own code, in order to enable profiling:
 
