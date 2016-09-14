@@ -12,7 +12,7 @@ Since vmprof-viewer's runtime overhead is configurable, it is well suited for lo
 For the client:
 
 ```sh
-pip install git+https://github.com/jonashaag/vmprof-viewer-client
+pip install git+https://github.com/blue-yonder/vmprof-viewer-client
 ```
 
 You'll need to have a vmprof-viewer server running, see https://github.com/blue-yonder/vmprof-viewer-server for details.
